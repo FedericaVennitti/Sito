@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<!--elemento head definizione-->
+<head>
+	<title>Banchetto di Marcantonio e Cleopatra, Francesco Trevisani</title>
+  <link rel="icon" type="image/x-icon" href="img/simbolo.svg.png">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="itemuno.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+
+<!--elemento body corpo sito-->
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<!--elemento header prima testata-->
+<header>
+    <div style="text-align: center">
+        <img src="img/cleo.png" width="450" height="80">
+  </div>
+    </header> 
+
+<!--elemento navbar di navigazione seconda testata-->
+    <nav class="navbar navbar-expand-lg bg-body-lightblue" style="background-color: lightblue;">
+        <div class="container-fluid">
+             <a class="navbar-brand" href="#"><img src="img/simbolo.svg.png" width="80">La riscoperta di Cleopatra</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="index.html" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalogo.html">Catalogo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Temi
+          </a>
+         <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="catalogo.html">Il suicidio</a></li>
+            <li><a class="dropdown-item" href="catalogo.html">Scene rare</a></li>
+            <li><a class="dropdown-item" href="catalogo.html">Con Cesare</a></li>
+            <li><a class="dropdown-item" href="catalogo.html">Con Marcantonio</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="catalogo.html">Iconografie</a></li>
+          </ul>
+        </li>
+        </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+        </div>
+        </div>
+    </nav>	
+
+<!--content item-->
+
+<div class="container-fluid mt-4">
+      <div class="row">
+
+<!--colonna sinistra pulsanti azione-->
+
+<div class="col-md-1">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                 <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Opere</li>
+                 </ol>
+        </nav>
+          <div class="mt-3">
+            <button type="button" class="btn btn-warning"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M15 3a3 3 0 0 1-5.175 2.066l-3.92 2.179a2.994 2.994 0 0 1 0 1.51l3.92 2.179a3 3 0 1 1-.73 1.31l-3.92-2.178a3 3 0 1 1 0-4.133l3.92-2.178A3 3 0 1 1 15 3Zm-1.5 10a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 13.5 13Zm-9-5a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 4.5 8Zm9-5a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 13.5 3Z"></path></svg>   Condividi</button>
+          </div>
+         
+          <div class="mt-3">
+            <a type="button" class="btn btn-warning" href="xml/dc.xml" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>   XML/DC</a>  
+          </div>
+          <div class="mt-3">
+            <a type="button" class="btn btn-warning" href="xml/tei.xml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>   XML/TEI</a>  
+          </div>
+             
+
+        </div>
+
+<!--box centrale: immagine e tabella-->
+
+
+<div class="col-md-9">
+<div class="row">
+           
+     <div class="col-md-6 mx-auto d-block">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                 <div class="carousel-item active">
+             <img src="img/marcantonio/trevisani.jpeg" class="d-block w-100" alt="Banchetto di Marcantonio e Cleopatra">
+            </div>
+             <div class="carousel-item">
+            <img src="img/marcantonio/trevisani1.jpeg" class="d-block w-100" alt="Dettaglio Marcantonio e Cleopatra">
+             </div>
+            <div class="carousel-item">
+            <img src="img/marcantonio/trevisani2.jpeg" class="d-block w-100" alt="Dettaglio Cleopatra con perla">
+            </div>
+            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+        </button>
+            </div>
+            <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.9372135601066!2d12.469347176122147!3d41.894207364405474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60460410eeff%3A0xb3712c7cbd613725!2sGalleria%20Spada!5e0!3m2!1sit!2sit!4v1697365856584!5m2!1sit!2sit" width="510" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+      <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!4v1697383004919!6m8!1m7!1sCAoSLEFGMVFpcFBjY3I3V1hucTFEcEl0QjdqdDZwSE5rcC1Cb3M0SXBabG1UY01W!2m2!1d41.8939564!2d12.4720319!3f121.45565118054577!4f-5.811830229436225!5f0.4000000000000002" width="510" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+           
+        </div>
+       
+
+     <div class="col-md-6 mx-auto d-block">
+            <table class="table table-striped">
+                <h1>Banchetto di Marcantonio e Cleopatra di Francesco Trevisani</h1>
+            <thead>
+                <tr>
+                <th scope="col" class="text fs-4">Categoria</th>
+                <th scope="col" class="text fs-4">Dati</th>
+                </tr>
+            </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Titolo</th>
+                    <td>Banchetto di Marcantonio e Cleopatra</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Oggetto</th>
+                    <td>Dipinto/pittura a olio<a href="http://vocab.getty.edu/page/aat/300178684" target="_blank"><sup>Getty vocabularies:AAT</sup></a></td>
+                  </tr>
+
+                <tr>
+                    <th scope="row">Materia e tecnica</th>
+                    <td>tela/pittura a olio</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Autore</th>
+                    <td>Francesco Trevisani</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Descrizione dell'opera</th>
+                    <td>La scena rappresentata da Francesco Trevisani è tratta da Plinio, ed è il teatrale momento del banchetto tra Cleopatra e Marcantonio. All'interno dell'opera vediamo CLeopatra togliersi un orecchino di perla con l'intento di scioglierlo nel vino per vincere la scomessa fatta con Marcantonio, il quale possiamo vederlo stendersi verso di lei nel tentativo di fermarla.</td>
+                  </tr>
+
+
+                  <tr>
+                    <th scope="row">Luogo di conservazione</th>
+                    <td>Palazzo Spada<a href="https://maps.app.goo.gl/CcBwjJi2HpVgug498" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 13.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path><path d="M19.071 3.429h.001c3.905 3.905 3.905 10.237 0 14.142l-5.403 5.403a2.36 2.36 0 0 1-3.336 0l-5.375-5.375-.028-.028c-3.905-3.905-3.905-10.237 0-14.142 3.904-3.905 10.236-3.905 14.141 0ZM5.99 4.489v.001a8.5 8.5 0 0 0 0 12.02l.023.024.002.002 5.378 5.378a.859.859 0 0 0 1.214 0l5.403-5.404a8.5 8.5 0 0 0-.043-11.977A8.5 8.5 0 0 0 5.99 4.489Z"></path></svg>Google Maps</a>    <a href="https://www.geonames.org/12324444/spada-gallery.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 13.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path><path d="M19.071 3.429h.001c3.905 3.905 3.905 10.237 0 14.142l-5.403 5.403a2.36 2.36 0 0 1-3.336 0l-5.375-5.375-.028-.028c-3.905-3.905-3.905-10.237 0-14.142 3.904-3.905 10.236-3.905 14.141 0ZM5.99 4.489v.001a8.5 8.5 0 0 0 0 12.02l.023.024.002.002 5.378 5.378a.859.859 0 0 0 1.214 0l5.403-5.404a8.5 8.5 0 0 0-.043-11.977A8.5 8.5 0 0 0 5.99 4.489Z"></path></svg>GeoNames</a></td>   
+                  </tr>
+                  <tr>
+                    <th scope="row">Indirizzo</th>
+                    <td>Piazza Capo di Ferro 13, Roma (RM)<a href="https://maps.app.goo.gl/hWQiokdiN28PovGd8" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 13.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path><path d="M19.071 3.429h.001c3.905 3.905 3.905 10.237 0 14.142l-5.403 5.403a2.36 2.36 0 0 1-3.336 0l-5.375-5.375-.028-.028c-3.905-3.905-3.905-10.237 0-14.142 3.904-3.905 10.236-3.905 14.141 0ZM5.99 4.489v.001a8.5 8.5 0 0 0 0 12.02l.023.024.002.002 5.378 5.378a.859.859 0 0 0 1.214 0l5.403-5.404a8.5 8.5 0 0 0-.043-11.977A8.5 8.5 0 0 0 5.99 4.489Z"></path></svg>Google Maps</a>    <a href="https://www.geonames.org/12324444/spada-gallery.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 13.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path><path d="M19.071 3.429h.001c3.905 3.905 3.905 10.237 0 14.142l-5.403 5.403a2.36 2.36 0 0 1-3.336 0l-5.375-5.375-.028-.028c-3.905-3.905-3.905-10.237 0-14.142 3.904-3.905 10.236-3.905 14.141 0ZM5.99 4.489v.001a8.5 8.5 0 0 0 0 12.02l.023.024.002.002 5.378 5.378a.859.859 0 0 0 1.214 0l5.403-5.404a8.5 8.5 0 0 0-.043-11.977A8.5 8.5 0 0 0 5.99 4.489Z"></path></svg>GeoNames</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Datazione</th>
+                    <td>1702 circa</td>
+                  </tr>
+
+                   <tr>
+                    <th scope="row">Misure</th>
+                    <td>254 cm x 255 cm</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Codice di catalogo Nazionale</th>
+                    <td>1200962505</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Ente competente per la tutela</th>
+                    <td>Galleria Spada</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Ente schedatore</th>
+                    <td>Galleria Spada</td>
+                  </tr>
+
+                   <tr>
+                    <th scope="row">Numero d'inventario</th>
+                    <td>123</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Condizione Giuridica</th>
+                    <td>Proprietà stato</td>
+                  </tr>
+
+                    <tr>
+                    <th scope="row">Notizie storico critiche</th>
+                    <td>Il banchetto di Marcantonio e Cleopatra, fu commissionato da Fabrizio Spada nel 1702 per 250 scudi, al quale si aggiunsero altri 50 in regalo. Come sostenuto da Zeri, l’opera era destinata come pendant del Ratto di Elena di Guido Reni e la Morte di Didone di Guercino. A conferma di ciò vi è l’inventario del cardinale del 1717, dal quale si evince che la tela in questione era già esposta nell’attuale terza sala. Le tre grandi tele sono unite dal tema storico-mitologico, ma Fabrizio Spada amava anche creare sottili rimandi tra le opere. A unire il Festino di Marcantonio e Cleopatra e la Morte di Didone è difatti anche un altro elemento: entrambi rappresentano eroine suicide. Allo stesso tempo, l’opera di Trevisani divenne il centro di un ideale trittico che comprendeva i due pendants commissionati a Domenico Maria Muratori, raffiguranti La morte di Antonio e La morte di Cleopatra. </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Licenza Metadati</th>
+                    <td><a href="https://creativecommons.org/licenses/by/4.0/legalcode.it" target="_blank">CC-BY 4.0</a></td>
+                  </tr>
+                </tbody>
+
+
+
+
+
+              </table>
+              <div class="fonti">
+                <h2>Fonti:</h2>
+                  <a class="btn btn-outline-warning" href="https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200962505" target="_blank">Catalogo generale dei Beni Culturali</a>
+                  <a class="btn btn-outline-warning" href="https://dati.beniculturali.it/lodview-arco/resource/HistoricOrArtisticProperty/1200962505.html" role="button" target="_blank">dati.cultura.gov.it</a>
+                  <a class="btn btn-outline-warning" href="xml/Scheda catalografica.pdf" role="button" target="_blank">Scheda catalografica</a>
+              </div>
+            </div>
+          </div>      
+        </div>
+       
+
+
+<!--elementi correalati colonna destra-->
+
+ <div class="col-md-2">
+          <aside>
+            <h5>Elementi Correlati:</h5>
+            <div class="card border-warning mb-3">
+              <img src="img/marcantonio/trevisanifra.jpeg" class="card-img-top" alt="Arms_of_the_house_of_Guidi">
+              <div class="card-body">
+                <h5 class="card-title text-center">Francesco Trevisani</h5>
+                 <a href="https://it.wikipedia.org/wiki/Francesco_Trevisani" class="btn btn-dark link-warning d-grid mx-auto">Scopri l'artista</a>
+              </div>
+            </div>
+            <div class="card border-warning mb-3">
+              <img src="img/marcantonio/galleriaspada.jpeg" class="card-img-top" alt="Portrait_de_Dante">
+              <div class="card-body">
+                <h5 class="card-title text-center">Palazzo Spada
+                <a href="https://galleriaspada.cultura.gov.it/" class="btn btn-dark link-warning d-grid mx-auto">Scopri il Palazzo</a>
+              </div>
+            </div>
+
+          </aside>
+        </div>
+      </div>
+  </div>
+
+<!-- footer -->
+    <div class="footer">
+      <p><a href="#" title="Credits">Credits</a>  |  <a href="#" title="Licenze">Licenze</a></p>
+    </div>
+    <div class="copyright">
+      <p>© Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research Centre.</p>
+    </div>
+
+
+              
+</body>
+</html>

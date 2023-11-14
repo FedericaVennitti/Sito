@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+
+<!--elemento head definizione-->
+<head>
+	<title>Catalogo</title>
+    <link rel="icon" type="image/x-icon" href="img/simbolo.svg.png">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="catalogo.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	
+</head>
+<!--elemento body corpo sito-->
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+
+<!--elemento header prima testata-->
+    <header>
+    <div style="text-align: center">
+        <img src="img/cleo.png" width="450" height="80">
+  </div>
+    </header> 
+
+
+
+<!--elemento navbar di navigazione seconda testata-->
+
+     <nav class="navbar navbar-expand-lg bg-body-lightblue" style="background-color: lightblue;">
+        <div class="container-fluid">
+             <a class="navbar-brand" href="#"><img src="img/simbolo.svg.png" width="80">La riscoperta di Cleopatra</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="index.html" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalogo.html">Catalogo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Temi
+          </a>
+         <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="catalogo.html">Il suicidio</a></li>
+            <li><a class="dropdown-item" href="catalogo.html">Scene rare</a></li>
+            <li><a class="dropdown-item" href="catalogo.html">Con Cesare</a></li>
+            <li><a class="dropdown-item" href="catalogo.html">Con Marcantonio</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="catalogo.html">Iconografie</a></li>
+          </ul>
+        </li>
+        </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+        </div>
+        </div>
+    </nav>  
+
+
+
+<!--catalogo-->
+
+<div class="row" >
+          
+
+
+<!-- colonna sinistra-->
+        <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+                    <aside>
+                       
+
+ <!-- breadcrumbs -->
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                 <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Opere</li>
+                 </ol>
+        </nav>
+
+
+
+<!-- filtri -->
+    <!-- ordine cronologico -->
+
+<div class="cronologia">
+<h3 class="mb-0">Ordina per:</h3>
+</div>
+<div class="checkbox-container">
+             
+             
+            
+           
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">Rilevanza
+                 </label>
+                    </div>
+                   
+
+
+                    <div class="form-check ">
+                    <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">Ordine Cronologico 
+                    </label>
+                    </div>
+                    
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">Ordine Alfabetico
+                    </label>
+                    </div>
+
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">Ultime aggiunte 
+                    </label>
+                    </div>
+
+    
+    
+
+
+     <div class="cronologia">
+                 <h3 class="mb-0">In ordine Cronologico:</h3>
+             </div>
+         <div class="checkbox-container">
+             
+             
+            
+           
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">1500
+                 </label>
+                    </div>
+                   
+
+
+                    <div class="form-check ">
+                    <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">1600
+                    </label>
+                    </div>
+                    
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">1700
+                    </label>
+                    </div>
+
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">1800
+                    </label>
+                    </div>
+
+                    
+        </div>
+
+<!-- filtra la lista -->
+    <div class="cronologia">
+            <h3 class="mb-0">Ricerca avanzata:</h3>
+                 </div>
+    <div class="checkbox-container mt-4">
+
+<!-- dropdown menu -->
+<!--bottone tecnica-->
+<div class="d-grid gap-2 mx-auto">
+    <div class="btn-group dropend">
+        <button type="button" class="btn btn-warning btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Tecnica Artistica
+        </button>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Scultura</a></li>
+        <li><a class="dropdown-item" href="#">Pittura</a></li>
+        </ul>
+    </div>
+
+<!--bottone artisti-->
+
+     <div class="btn-group dropend">
+        <button type="button" class="btn btn-warning btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> Artista
+        </button>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Andrea Solario</a></li>
+        <li><a class="dropdown-item" href="#">Artemisia Gentileschi</a></li>
+         <li><a class="dropdown-item" href="#">Guido Cagnacci</a></li>
+        <li><a class="dropdown-item" href="#">Guido Reni</a></li>
+         <li><a class="dropdown-item" href="#">Rossofiorentino</a></li>
+        <li><a class="dropdown-item" href="#">Guercino</a></li>
+         <li><a class="dropdown-item" href="#">Giambattista Tiepolo</a></li>
+       
+        </ul>
+    </div>
+
+<!--bottone stile-->
+    <div class="btn-group dropend">
+        <button type="button" class="btn btn-warning btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> Stile Artistico
+        </button>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Medievale</a></li>
+        <li><a class="dropdown-item" href="#">Rinascimentale</a></li>
+         <li><a class="dropdown-item" href="#">Barocco</a></li>
+        <li><a class="dropdown-item" href="#">Realista</a></li>
+         <li><a class="dropdown-item" href="#">Romanticismo</a></li>
+        <li><a class="dropdown-item" href="#">Neoclassicismo</a></li>
+         <li><a class="dropdown-item" href="#">Simbolismo</a></li>
+        </ul>
+    </div>
+</div>
+         </div>
+        </aside>
+        </div>
+
+
+
+
+
+
+ <!-- colonna destra -->
+        <!--menu-->
+
+<div class="col-md-9 col-sm-9 col-xs-12">
+                    <!-- COLONNE INNESTATE: ripeti all'interno di un div con classe col-*-* un div con classe row e innesta al suo interno nuovi div con classe col-*-* -->
+                    <!-- tab -->
+<div class="row">
+<div class="col-md-12">
+    <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Tutte le Opere</button>
+
+             <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">La morte di Cleopatra</button>
+
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Con Cesare</button>
+            
+            <button class="nav-link" id="nav-senso-tab" data-bs-toggle="tab" data-bs-target="#nav-senso" type="button" role="tab" aria-controls="nav-senso" aria-selected="false">Con Marcantonio</button>
+
+            <button class="nav-link" id="nav-sensi-tab" data-bs-toggle="tab" data-bs-target="#nav-sensi" type="button" role="tab" aria-controls="nav-sensi" aria-selected="false">Scene rare</button>
+    </div>  
+    </nav>                      
+    </div>
+    </div>
+
+
+
+
+
+<!-- Tutte le Opere -->
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+<div class="row">
+        
+
+        <!-- item 1 -->
+         <div class="col-md-4 mt-4">
+                <div class="card card-item">
+               
+                <div class="img img-cleopatra-1"></div>
+                               
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Morte di Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Andrea Solari</em></p>
+                            <p class="card-text"> Data di creazione: <em>1514</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>Collezione Privata</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            
+
+            <!-- item 2 -->
+            <div class="col-md-4 mt-4">
+                 <div class="card card-item">
+                <div class="img img-cleopatra-2"></div>
+
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Il suicidio di Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Claude Bertin</em></p>
+                            <p class="card-text"> Data di creazione: <em>1697</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>Museo del Louvre</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                 </div>
+            <!-- item 3 -->
+            <div class="col-md-4 mt-4">
+                <div class="card card-item">
+                <div class="img img-cleopatra-3"></div>
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Guido Reni</em></p>
+                            <p class="card-text"> Data di creazione: <em>1630</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>Palazzo Pitti</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+</div>
+                   
+<!--seconda riga-->
+ <div class="row">
+            
+            <!-- item 1 -->
+                <div class="col-md-4 mt-4">
+                    <div class="card card-item">
+                    <div class="img img-cleopatra-4"></div>
+                    <div class="card-body">
+                   <div class="card-metadata">
+                    <h4 class="card-title"><b>Banchetto di Marcantonio e Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Francesco Trevisani</em></p>
+                            <p class="card-text"> Data di creazione: <em>1702</em></p>
+                            <p class="card-text"> Luogo di conservazione:<em>Palazzo Spada</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button"><a href="itemuno.html"class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Vai all'opera</a></button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <!-- item 2 -->
+                    <div class="col-md-4 mt-4">
+                        <div class="card card-item">
+                        <div class="img img-cleopatra-5"></div>
+                        <div class="card-body">
+                        <div class="card-metadata">
+                         <h4 class="card-title"><b>Banchetto di Antonio e Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Giambattista Tiepolo</em></p>
+                            <p class="card-text"> Data di creazione: <em>1743-1745</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>National Gallery</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                       
+                 <!-- item 3 -->
+                    <div class="col-md-4 mt-4">
+                        <div class="card card-item">
+                        <div class="img img-cleopatra-6"></div>
+                        <div class="card-body">
+                        <div class="card-metadata">
+                         <h4 class="card-title"><b>Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Michelangelo Buonarroti</em></p>
+                            <p class="card-text"> Data di creazione: <em>1534</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>Casa Buonarroti</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+</div>
+</div>
+
+
+
+               
+
+<!--La morte di Cleopatra-->
+<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+<!--prima fila-->
+<div class="row">
+        <!-- item 1 -->
+        <div class="col-md-4 mt-4">
+        <div class="card card-item">
+        <div class="img img-cleo-1"></div>
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Cleopatra</b></h4>
+                <p class="card-text"> Artista:<em> Domenico Beccafumi</em></p>
+                <p class="card-text"> Data di creazione: <em>1506-1507</em></p>
+                <p class="card-text"> Luogo di conservazione: <em>Collezione Chigi</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            
+            <!-- item 2 -->
+            <div class="col-md-4 mt-4">
+            <div class="card card-item">
+            <div class="img img-cleo-2"></div>
+
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Morte di Cleopatra</b></h4>
+                <p class="card-text"> Artista:<em> Andrea Solari</em></p>
+                <p class="card-text"> Data di creazione: <em>1514</em></p>
+                <p class="card-text"> Luogo di conservazione: <em>Collezione Privata</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                    </div>
+                     </div>
+                    </div>
+                    </div>
+                    </div>
+                        
+                <!-- item 3 -->
+                <div class="col-md-4 mt-4">
+                <div class="card card-item">
+                <div class="img img-cleo-3"></div>
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Morte di Cleopatra</b></h4>
+                <p class="card-text"> Artista:<em> Giampietrino</em></p>
+                <p class="card-text"> Data di creazione: <em>1515</em></p>
+                <p class="card-text"> Luogo di conservazione:<em>Museo del Louvre</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+</div>
+                   
+
+                    
+<!--seconda fila-->
+<div class="row">
+                        
+        <!-- item 1 -->
+            <div class="col-md-4 mt-4">
+                <div class="card card-item">
+                <div class="img img-cleo-4"></div>
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Morte di Cleopatra</b></h4>
+                <p class="card-text"> Artista:<em> Rosso Fiorentino</em></p>
+                <p class="card-text"> Data di creazione: <em>1525</em></p>
+                <p class="card-text"> Luogo di conservazione: <em>Herzog Anton Ulrich-Museum</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            
+        <!-- item 2 -->
+            <div class="col-md-4 mt-4">
+            <div class="card card-item">
+             <div class="img img-cleo-5"></div>
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Cleopatra</b></h4>
+                <p class="card-text"> Artista:<em> Artemisia Gentileschi</em></p>
+                <p class="card-text"> Data di creazione: <em>1620</em></p>
+                <p class="card-text"> Luogo di conservazione: <em>Fondazione Cavallini</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                       
+        <!-- item 3 -->
+             <div class="col-md-4 mt-4">
+                <div class="card card-item">
+                 <div class="img img-cleo-6"></div>
+                                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Cleopatra</b></h4>
+                <p class="card-text"> Artista:<em> Guido Reni</em></p>
+                <p class="card-text"> Data di creazione: <em>1630</em></p>
+                <p class="card-text"> Luogo di conservazione: <em>Palazzo Pitti</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+
+
+</div>
+
+
+<!--Con Cesare-->
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+    <div class="row">
+        
+        <!-- item 1 -->
+        <div class="col-md-4 mt-4">
+            <div class="card card-item">
+                <div class="img img-cesare-1"></div>
+                <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Cleopatra e Cesare</b></h4>
+                <p class="card-text"> Artista:<em>  Jean-Léon Gérôme</em></p>
+                <p class="card-text"> Data di creazione: <em>1866</em></p>
+                <p class="card-text"> Luogo di conservazione: <em> Collezione Privata</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+ 
+</div>
+
+
+
+
+
+<!--Con Marcantonio-->
+  <div class="tab-pane fade" id="nav-senso" role="tabpanel" aria-labelledby="nav-senso-tab" tabindex="0">
+      
+<div class="row">
+        
+        <!-- item 1 -->
+        <div class="col-md-4 mt-4">
+        <div class="card card-item">
+        <div class="img img-marco-1"></div>
+            <div class="card-body">
+                <div class="card-metadata">
+                <h4 class="card-title"><b>Il banchetto di Cleopatra</b></h4>
+                <p class="card-text"> Artista:<em>  Gérard de Lairesse</em></p>
+                <p class="card-text"> Data di creazione: <em>1680</em></p>
+                <p class="card-text"> Luogo di conservazione: <em> Rijksmuseum</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        
+
+        <!-- item 2 -->
+        <div class="col-md-4 mt-4">
+        <div class="card card-item">
+        <div class="img img-marco-2"></div>
+                    <div class="card-body">
+                        <div class="card-metadata">
+                         <h4 class="card-title"><b>Banchetto di Antonio e Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Giambattista Tiepolo</em></p>
+                            <p class="card-text"> Data di creazione: <em>1743-1745</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>National Gallery</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+            <!-- item 3 -->
+            <div class="col-md-4 mt-4">
+            <div class="card card-item">
+            <div class="img img-marco-3"></div>
+                <div class="card-body">
+                        <div class="card-metadata">
+                         <h4 class="card-title"><b>Incontro di Antonio e Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Giambattista Tiepolo</em></p>
+                            <p class="card-text"> Data di creazione: <em>1748</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>National Gallery</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+  
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+                </div>
+
+<!--seconda fila-->
+    <div class="row">
+            
+            <!-- item 1 -->
+            <div class="col-md-4 mt-4">
+            <div class="card card-item">
+            <div class="img img-marco-4"></div>
+                    <div class="card-body">
+                   <div class="card-metadata">
+                    <h4 class="card-title"><b>Banchetto di Marcantonio e Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Francesco Trevisani</em></p>
+                            <p class="card-text"> Data di creazione: <em>1702</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>Palazzo Spada</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+                </div>
+                </div>  
+                </div>
+                </div>
+                </div>
+                        
+
+                <!-- item 2 -->
+                <div class="col-md-4 mt-4">
+                <div class="card card-item">
+                <div class="img img-marco-5"></div>
+                    <div class="card-body">
+                   <div class="card-metadata">
+                    <h4 class="card-title"><b>L'incontro a Tarsio</b></h4>
+                            <p class="card-text"> Artista:<em> Lawrence Alma-Tadema</em></p>
+                            <p class="card-text"> Data di creazione: <em>1885</em></p>
+                            <p class="card-text"> Luogo di conservazione:<em>Collezione Privata</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+                 </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                
+
+                <!-- item 3 -->
+                <div class="col-md-4 mt-4">
+                <div class="card card-item">
+                <div class="img img-marco-6"></div>
+                                 <div class="card-body">
+                   <div class="card-metadata">
+                    <h4 class="card-title"><b>Cleopatra e Marcantonio morente</b></h4>
+                            <p class="card-text"> Artista:<em> Pompeo Batoni</em></p>
+                            <p class="card-text"> Data di creazione: <em>1760</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>Collezione Privata</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+                 </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+</div>
+
+
+<!--La sensualità-->
+  <div class="tab-pane fade" id="nav-sensi" role="tabpanel" aria-labelledby="nav-sensi-tab" tabindex="0">
+   
+<div class="row">
+        <!-- item 1 -->
+        <div class="col-md-4 mt-4">
+        <div class="card card-item">
+        <div class="img img-senso-1"></div>
+                <div class="card-body">
+                   <div class="card-metadata">
+                    <h4 class="card-title"><b>Cleopatra e Ottaviano</b></h4>
+                            <p class="card-text"> Artista:<em> Pompeo Batoni</em></p>
+                            <p class="card-text"> Data di creazione: <em>1760</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>Collezione Privata</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+                 </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        
+
+        <!-- item 2 -->
+         <div class="col-md-4 mt-4">
+        <div class="card card-item">
+        <div class="img img-senso-2"></div>
+            <div class="card-body">
+                   <div class="card-metadata">
+                    <h4 class="card-title"><b>Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> Sir Lawrence Alma-Tadema</em></p>
+                            <p class="card-text"> Data di creazione: <em>1875</em></p>
+                            <p class="card-text"> Luogo di conservazione: <em>South Building</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+                 </div>
+                </div>
+                </div>
+                </div>
+                </div>
+        
+
+         <!-- item 3 -->
+        <div class="col-md-4 mt-4">
+        <div class="card card-item">
+        <div class="img img-senso-3"></div>
+                <div class="card-body">
+                   <div class="card-metadata">
+                    <h4 class="card-title"><b>Cleopatra</b></h4>
+                            <p class="card-text"> Artista:<em> John William Waterhouse</em></p>
+                            <p class="card-text"> Data di creazione: <em>1887</em></p>
+                            <p class="card-text">Luogo di conservazione: <em>Collezione Privata</em></p>
+
+                          <div class="d-grid gap-2">
+                         <button class="btn btn-outline-info" type="button">Vai all'opera</button>
+                 </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                    
+
+                </div>
+                </div>
+                </div>
+                </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- numeri -->
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+</div>
+</div>
+
+
+ <!-- footer -->
+    <div class="footer">
+      <p><a href="#" title="Credits">Credits</a>  |  <a href="#" title="Licenze">Licenze</a></p>
+    </div>
+    <div class="copyright">
+      <p>© Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research Centre.</p>
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,306 @@
+*inizio elementi base*/
+
+.background-lightblue{
+	background-color: lightblue;
+}
+
+body{
+    background-color: #ffea98;
+}
+
+header{
+    background-color: black;
+}
+
+h2{ font-family: lustria;
+  font-size: 20pt;
+  font-style: bold;
+    
+}
+h3 { font-family: lustria;
+  font-style: bold;
+  font-style: 20pt;
+text-align: center;
+    
+}
+
+h4{ font-family: lustria;
+  font-style: bold;
+
+}
+
+
+p{ font-family: lato;
+  font-size: 16pt;
+    
+}
+
+
+.navbar{ font-family: lustria;
+    
+}
+
+.footer {
+  background-color: lightblue;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.copyright {
+  background-color: black;
+  color: #ddd;
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+/*fine elementi base*/
+
+/*elementi catalogo*/
+
+
+.card .card-item
+{
+transition: 0,5s;
+border-radius:5px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+}
+
+
+.breadcrumb{
+
+font-size: 20pt;
+font-family: lustria;
+padding-top: 5%;
+
+}
+
+
+.pagination {
+
+padding-top: 5%;
+padding-bottom: 5%;
+
+}
+
+
+.nav-link {
+
+background-color:lightblue;
+
+}
+
+.nav-tabs button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: lustria;
+ font-size: 16pt;
+ transition: 0.5s;
+
+  }
+
+/* Change background color of buttons on hover */
+.nav-tabs button:hover {
+  background-color: black;
+  color: #d0af12;
+
+}
+
+
+.row{
+    
+   padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+
+.col-md-2 .col-md-9{
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.checkbox-container{
+    
+   padding-top: 5%;
+    padding-right: 2%;
+    
+     padding-bottom: 5%;
+   
+}
+
+
+
+.cronologia{
+    
+   padding-top: 10%;
+    padding-bottom: 10%;
+
+    background-color: lightblue;
+    
+}
+
+
+
+.form-check{
+    
+   padding-top: 5%;
+    padding-right: 2%;
+    padding-bottom:5% ;
+
+
+    
+}
+
+.btn-group{
+    font-family: lato;
+    padding-top: 5%;
+
+
+}
+
+
+
+.card-item .img {
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 400px;
+    max-width: 100%
+}
+
+
+/*tutte le opere*/
+
+
+.card-item .img-cleopatra-1 {
+    background-image: url("img/cleopatramorente/andreasolario.jpeg");
+}
+
+.card-item .img-cleopatra-2 {
+    background-image: url("img/cleopatramorente/claudebertin.jpeg");
+}
+
+.card-item .img-cleopatra-3{
+    background-image: url("img/cleopatramorente/reni3.jpeg");
+}
+
+.card-item .img-cleopatra-4{
+    background-image: url("img/marcantonio/trevisani.jpeg");
+}
+
+.card-item .img-cleopatra-5{
+    background-image: url("img/marcantonio/tiepolo.jpeg");
+}
+
+.card-item .img-cleopatra-6{
+    background-image: url("img/cleopatramorente/michelangelo.jpeg");
+}
+
+
+/*La morte di Cleopatra*/
+
+
+.card-item .img-cleo-1 {
+    background-image: url("img/cleopatramorente/Beccafumu.jpeg");
+}
+
+.card-item .img-cleo-2 {
+    background-image: url("img/cleopatramorente/andreasolario.jpeg");
+}
+
+.card-item .img-cleo-3{
+    background-image: url("img/cleopatramorente/giampietrino.jpeg");
+}
+
+.card-item .img-cleo-4{
+    background-image: url("img/cleopatramorente/rossofiorentino.jpeg");
+}
+
+.card-item .img-cleo-5{
+    background-image: url("img/cleopatramorente/artemisiaprima.jpeg");
+}
+
+.card-item .img-cleo-6{
+    background-image: url("img/cleopatramorente/reni2.jpeg");
+}
+
+
+
+/*Cesare*/
+
+
+.card-item .img-cesare-1 {
+    background-image: url("img/cesare/gerome.jpeg");
+}
+
+
+
+/*Marcantonio*/
+.card-item .img-marco-1 {
+    background-image: url("img/marcantonio/lairisse.jpeg");
+}
+
+.card-item .img-marco-2 {
+    background-image: url("img/marcantonio/tiepolo.jpeg");
+}
+
+.card-item .img-marco-3{
+    background-image: url("img/marcantonio/tiepolo3.jpeg");
+}
+
+.card-item .img-marco-4{
+    background-image: url("img/marcantonio/trevisani.jpeg");
+}
+
+.card-item .img-marco-5{
+    background-image: url("img/marcantonio/alma.jpeg");
+}
+
+.card-item .img-marco-6{
+    background-image: url("img/marcantonio/Pompeobatoni.jpeg");
+}
+
+
+/*Senso*/
+.card-item .img-senso-1 {
+    background-image: url("img/Pompeobatoni.jpeg");
+}
+
+.card-item .img-senso-2 {
+    background-image: url("img/la.jpeg");
+}
+
+.card-item .img-senso-3{
+    background-image: url("img/house .jpeg");
+}
+
+.card-item .img-senso-4{
+    background-image: url("img/veleno.jpeg");
+}
+

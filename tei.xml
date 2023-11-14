@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Banchetto di Marcantonio e Cleopatra di Francesco Trevisani</title>
+				<respStmt>
+					<resp>Codifica</resp>
+					<name xml:id="FV">Federica Vennitti</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<pubPlace> Università di Bologna</pubPlace>
+				<date>2023</date>
+				<availability>
+					<p>Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Banchetto di Marcantonio e Cleopatra di Francesco Trevisani</title>
+					<author>Francesco Trevisani</author>
+					<publisher>Catalogo generale dei Beni Culturali</publisher>
+					<pubPlace>Palazzo Spada</pubPlace>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>La scena rappresentata da Francesco Trevisani è tratta da Plinio, ed è il teatrale momento del banchetto tra Cleopatra e Marcantonio. All'interno dell'opera vediamo Cleopatra togliersi un orecchino di perla con l'intento di scioglierlo nel vino per vincere la scomessa fatta con Marcantonio, il quale possiamo vederlo stendersi verso di lei nel tentativo di fermarla.</p>
+		</body>
+	</text>
+</TEI>

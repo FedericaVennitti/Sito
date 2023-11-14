@@ -1,0 +1,94 @@
+/*inizio elementi base*/
+
+.background-lightblue{
+	background-color: lightblue;
+}
+
+
+header{
+    background-color: black;
+}
+
+h2{ font-family: lustria;
+  font-size: 60pt;
+  font-style: bold;
+    
+}
+
+h1{ font-family: lustria;
+  
+    
+}
+h3 { font-family: lustria;
+  font-style: bold;
+
+    
+}
+
+td { font-family: lato;
+  
+    
+}
+
+th, h5{ font-family: lustria;
+  
+
+    
+}
+
+p{ font-family: lato;
+  font-size: 16pt;
+    
+}
+
+.navbar-expand-lg{ font-family: lustria;
+    background-color: lightblue;
+
+    
+}
+
+.footer {
+  background-color: lightblue;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.copyright {
+  background-color: black;
+  color: #ddd;
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+/*fine elementi base*/
+
+.col-md-1{
+padding-top: 25px;
+padding-bottom: 25px;
+    
+}
+
+.fonti{
+
+padding-bottom: 50px;
+    
+}
+
+
+.map{
+padding-top: 25px;
+padding-bottom: 25px;
+    
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: lightblue;
+  color: black;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: white;
+  color: #ffd700 ;
+}
